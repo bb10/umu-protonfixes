@@ -8,3 +8,6 @@ from protonfixes import util
 
 def main() -> None:
     util.disable_protonmediaconverter()
+    
+    """Grants bonus content to players with save data for Atelier Ryza: Ever Darkness & the Secret Hideout"""
+    util.import_saves_folder(1121560, 'Documents/KoeiTecmo/Atelier Ryza')
